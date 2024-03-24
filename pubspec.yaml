@@ -1,0 +1,52 @@
+name: dialer
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  contacts_service: ^0.6.3
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_phone_direct_caller: ^2.1.1
+  phone_state: ^1.0.2
+  speech_to_text: ^6.1.1
+  permission_handler: ^10.2.0
+  url_launcher: ^6.1.10
+  audioplayers: ^4.0.1
+  cached_network_image: ^3.0.0
+  fast_contacts: ^1.1.0
+  flutter_tts: ^3.0.1
+  flutter_callkit_incoming: ^2.0.0
+  call_log: ^3.0.2
+  flutter_local_notifications: ^14.0.1
+  shared_preferences: ^2.1.1
+  flutter_contacts: ^1.1.6
+  fluttertoast: ^8.2.2
+  flutter_sms_dual: ^0.0.3
+  android_intent: ^2.0.2
+  flutter_ringtone_player: ^3.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
